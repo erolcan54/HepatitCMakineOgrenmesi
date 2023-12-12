@@ -1,6 +1,6 @@
 import pickle
 
-modelLG=pickle.load(open("KNNModel.sav","rb"))
+modelLG=pickle.load(open("KNNModelSon.sav","rb"))
 
 from flask import Flask, request
 app=Flask(__name__)
